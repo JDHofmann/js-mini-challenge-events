@@ -26,6 +26,8 @@ Once you have it working in the console, write an event listener that will use t
 
 **YOUR NOTES**
 ```
+added event lister on header 
+event listener invokes toggleColor function and passes in the header as an argument
 
 ```
 
@@ -43,7 +45,13 @@ Some things to keep in mind:
 
 **YOUR NOTES**
 ```
-
+- created empty player hash
+- created variable for input with a value of "Add Player" 
+- created event listener for form input click
+- prevent default first to stop page from submitting form
+- assigned values of form inputs to player object
+- call render player function and pass it player object
+- reset form
 ```
 
 ## Deliverable 3: Like Button
@@ -54,5 +62,7 @@ You can decide if you'd like to use *event delegation* to handle this, or if you
 
 **YOUR NOTES**
 ```
-
+- created an event listener for any click on document where the class is likes button
+- travel up the dom tree to parent of likes button and back down to likes p
+- parse and reassign the likes p up one like
 ```
